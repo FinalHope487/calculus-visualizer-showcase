@@ -38,7 +38,7 @@
 | [`videos/classic-L1-1-trig-limit.mp4`](videos/classic-L1-1-trig-limit.mp4) | 最重要的三角極限（約 3 分 26 秒，480p） | 預製經典題 |
 | [`videos/auto-integral-by-parts.mp4`](videos/auto-integral-by-parts.mp4) | ∫ x eˣ dx，分部積分法（31 秒） | 自動生成 |
 | [`videos/auto-derivative.mp4`](videos/auto-derivative.mp4) | d/dx ( x³ sin x )，求導數（24 秒） | 自動生成 |
-| [`videos/auto-series-p-test.mp4`](videos/auto-series-p-test.mp4) | Σ 1/n²，p 級數判別法（38 秒） | 自動生成 |
+| [`videos/auto-series-geometric.mp4`](videos/auto-series-geometric.mp4) | Σ (1/2)ⁿ，等比級數，部分和收斂到 2（38 秒） | 自動生成 |
 
 影片皆為本專案自行製作。
 
