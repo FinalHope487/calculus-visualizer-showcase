@@ -19,26 +19,30 @@
 
 ## 畫面
 
-| 首頁 | 解題與逐步推導 |
+| 符號鍵盤（輸入定積分到一半） | 分部積分：影片停在第 3 步，右側是全部步驟 |
 |---|---|
-| ![首頁](images/01-home.png) | ![分部積分](images/02-integration-by-parts.png) |
+| ![符號鍵盤](images/01-keyboard.png) | ![分部積分](images/02-integration-by-parts.png) |
 
-| 級數 | 手機版（輸入畫面） |
+| 等比級數：概念動畫與答案 | 手機版（解題後的第一屏） |
 |---|---|
 | ![級數](images/03-series.png) | ![手機版](images/04-mobile.png) |
 
-截圖取自本機執行的版本。解題頁的「模型這次沒有回應，改用內建說明」是刻意保留的畫面：外部模型沒回應時，答案與步驟仍由 SymPy 產生。
+截圖取自本機執行的版本。
 
 ## 範例影片
 
-一支是預先製作的經典題講解，三支是系統收到題目後**自動生成**的（約 20–40 秒，720p），三種題型各一。
+一支是預先製作的經典題講解，七支是系統收到題目後**自動生成**的，每種題型一支：逐步講解後接概念動畫，皆為 1080p30。
 
 | 影片 | 內容 | 來源 |
 |---|---|---|
-| [`videos/classic-L1-1-trig-limit.mp4`](videos/classic-L1-1-trig-limit.mp4) | 最重要的三角極限（約 3 分 26 秒，480p） | 預製經典題 |
-| [`videos/auto-integral-by-parts.mp4`](videos/auto-integral-by-parts.mp4) | ∫ x eˣ dx，分部積分法（31 秒） | 自動生成 |
-| [`videos/auto-derivative.mp4`](videos/auto-derivative.mp4) | d/dx ( x³ sin x )，求導數（24 秒） | 自動生成 |
-| [`videos/auto-series-geometric.mp4`](videos/auto-series-geometric.mp4) | Σ (1/2)ⁿ，等比級數，部分和收斂到 2（38 秒） | 自動生成 |
+| [`videos/classic-D1-4-abs-corner.mp4`](videos/classic-D1-4-abs-corner.mp4) | \|x\| 在 0 不可微：尖點兩側斜率不同（2 分 9 秒） | 預製經典題 |
+| [`videos/auto-integral-by-parts.mp4`](videos/auto-integral-by-parts.mp4) | ∫ x eˣ dx，分部積分法（46 秒） | 自動生成 |
+| [`videos/auto-derivative.mp4`](videos/auto-derivative.mp4) | d/dx ( x³ sin x )，求導數（42 秒） | 自動生成 |
+| [`videos/auto-limit.mp4`](videos/auto-limit.mp4) | lim sin x / x（x→0），極限（36 秒） | 自動生成 |
+| [`videos/auto-solid-of-revolution.mp4`](videos/auto-solid-of-revolution.mp4) | y = x² 在 [0, 1] 繞 x 軸，旋轉體體積（48 秒） | 自動生成 |
+| [`videos/auto-taylor-series.mp4`](videos/auto-taylor-series.mp4) | sin x 在 0 的 5 階泰勒多項式（41 秒） | 自動生成 |
+| [`videos/auto-series-geometric.mp4`](videos/auto-series-geometric.mp4) | Σ (1/2)ⁿ，等比級數，部分和收斂到 2（53 秒） | 自動生成 |
+| [`videos/auto-partial-derivative.mp4`](videos/auto-partial-derivative.mp4) | ∂/∂x ( x²y + y³ )，偏導數與切線（43 秒） | 自動生成 |
 
 影片皆為本專案自行製作。
 
