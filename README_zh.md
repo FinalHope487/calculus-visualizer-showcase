@@ -33,6 +33,10 @@
 |---|
 | ![題型選單](images/05-kind-picker.png) |
 
+| 設定：介面語言可切換繁體中文／English，[英文版 README](README.md) 的截圖就是英文模式的畫面 |
+|---|
+| ![介面語言](images/06-settings-language.png) |
+
 截圖取自本機執行的版本。
 
 ## 範例影片

@@ -31,7 +31,11 @@ Covers limits, derivatives, integrals, parametric & polar coordinates, series, a
 |---|
 | ![Problem Type Menu](images/en/05-kind-picker.png) |
 
-Screenshots were captured from the local running instance.
+| Settings: Interface Language (Traditional Chinese / English); every screenshot here is the app's own English mode |
+|---|
+| ![Interface Language](images/en/06-settings-language.png) |
+
+Screenshots were captured from the local running instance in its English mode (Settings → Interface language). Step explanations and video captions come from the solver and stay in Chinese.
 
 ## Sample Videos
 
