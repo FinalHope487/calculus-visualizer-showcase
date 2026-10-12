@@ -15,7 +15,7 @@ Enter any calculus problem (typed directly with `\int`, `\sum`, or using the on-
 3. **Explain**: Render derivations into animated explainer videos. Arrow keys allow navigating between steps, with the video dynamically jumping to the corresponding timestamp.
 4. **Practice**: Recommend similar practice problems based on the techniques used, track student feedback ("Solved on my own / Unsure / Viewed solution"), and aggregate them into learning progress.
 
-Covers limits, derivatives, integrals, parametric & polar coordinates, series, and multivariable calculus, alongside a collection of pre-rendered explainer lectures for "Classic Problems".
+Covers limits, derivatives, integrals, parametric & polar coordinates, series, and multivariable calculus (including implicit differentiation and epsilon-delta proofs of polynomial limits), alongside a collection of pre-rendered explainer lectures for "Classic Problems".
 
 ## Screenshots
 
@@ -66,7 +66,7 @@ All videos were produced directly by this project.
 
 ## Quality
 
-Backend test suite execution on 2026-10-12: **2923 passed, 3 skipped, 0 failed**.
+Backend test suite execution on 2026-10-12: **2964 passed, 12 skipped, 0 failed** (2834 parallel + 130 serial real-render tests).
 
 ## License
 
