@@ -8,7 +8,7 @@
 
 ## What It Does
 
-Enter any calculus problem (typed directly with `\int`, `\sum`, or using the on-screen math keyboard), and the system will:
+Enter any calculus problem (typed directly with `\int`, `\sum`, or using the on-screen math keyboard; kinds such as solids of revolution or Taylor expansions are picked from the Problem Type menu and filled in by field), and the system will:
 
 1. **Solve**: Provide step-by-step mathematical derivations, clearly labeling which technique is used at each step (e.g., Integration by Parts).
 2. **Verify**: Verify the answer symbolically with SymPy, with optional cross-checking via Wolfram|Alpha. The AI is responsible solely for natural language explanation and **does not determine mathematical correctness**. If the model fails to respond, the system gracefully falls back to built-in templates without affecting mathematical validity.
@@ -26,6 +26,10 @@ Covers limits, derivatives, integrals, parametric & polar coordinates, series, a
 | Geometric Series (Concept Animation & Answer) | Mobile View (First Screen After Solving) |
 |---|---|
 | ![Geometric Series](images/en/03-series.png) | ![Mobile View](images/en/04-mobile.png) |
+
+| Problem Type Menu (Solid of Revolution by Field, Integral Previewed Before Solving) |
+|---|
+| ![Problem Type Menu](images/en/05-kind-picker.png) |
 
 Screenshots were captured from the local running instance.
 
