@@ -14,7 +14,7 @@
 
 1. **解題**：以逐步推導的方式給出答案，每一步標明用了哪個技巧（例如分部積分法）。
 2. **驗證**：答案由 SymPy 做符號驗證，並可選用 Wolfram|Alpha 交叉比對。AI 只負責講解，**不決定答案對不對**；模型沒回應時，會退回內建說明，數學結果不受影響。
-3. **講解**：把步驟算繪成動畫影片，左右方向鍵切換步驟，影片跳到對應片段。
+3. **講解**：把步驟算繪成動畫影片，左右方向鍵切換步驟，影片跳到對應片段。開場、小變形、關鍵變形、結尾各停幾秒，由設定頁的四支滑桿調整；每題解完附上同一個教學法的經典題連結。
 4. **練習**：依這一題用到的技巧，推薦同類型的練習題，並記錄「自己解出來／不確定／直接看解答」，彙整成學習進度。
 
 涵蓋極限、導數、積分、參數與極座標、級數、多變數微積分（含隱函數微分與多項式極限的 epsilon-delta 證明），另有一批預先製作的「經典題」講解影片。
@@ -33,7 +33,7 @@
 |---|
 | ![題型選單](images/05-kind-picker.png) |
 
-| 設定：介面語言可切換繁體中文／English，[英文版 README](README.md) 的截圖就是英文模式的畫面 |
+| 設定：介面語言可切換繁體中文／English，影片停留秒數滑桿；[英文版 README](README.md) 的截圖就是英文模式的畫面 |
 |---|
 | ![介面語言](images/06-settings-language.png) |
 
@@ -46,13 +46,13 @@
 | 影片 | 內容 | 來源 |
 |---|---|---|
 | [`videos/classic-D1-4-abs-corner.mp4`](videos/classic-D1-4-abs-corner.mp4) | \|x\| 在 0 不可微：尖點兩側斜率不同（2 分 9 秒） | 預製經典題 |
-| [`videos/auto-integral-by-parts.mp4`](videos/auto-integral-by-parts.mp4) | ∫ x eˣ dx，分部積分法（46 秒） | 自動生成 |
-| [`videos/auto-derivative.mp4`](videos/auto-derivative.mp4) | d/dx ( x³ sin x )，求導數（42 秒） | 自動生成 |
-| [`videos/auto-limit.mp4`](videos/auto-limit.mp4) | lim sin x / x（x→0），極限（36 秒） | 自動生成 |
-| [`videos/auto-solid-of-revolution.mp4`](videos/auto-solid-of-revolution.mp4) | y = x² 在 [0, 1] 繞 x 軸，旋轉體體積（48 秒） | 自動生成 |
-| [`videos/auto-taylor-series.mp4`](videos/auto-taylor-series.mp4) | sin x 在 0 的 5 階泰勒多項式（41 秒） | 自動生成 |
-| [`videos/auto-series-geometric.mp4`](videos/auto-series-geometric.mp4) | Σ (1/2)ⁿ，等比級數，部分和收斂到 2（53 秒） | 自動生成 |
-| [`videos/auto-partial-derivative.mp4`](videos/auto-partial-derivative.mp4) | ∂/∂x ( x²y + y³ )，偏導數與切線（43 秒） | 自動生成 |
+| [`videos/auto-integral-by-parts.mp4`](videos/auto-integral-by-parts.mp4) | ∫ x eˣ dx，分部積分法（42 秒） | 自動生成 |
+| [`videos/auto-derivative.mp4`](videos/auto-derivative.mp4) | d/dx ( x³ sin x )，求導數（38 秒） | 自動生成 |
+| [`videos/auto-limit.mp4`](videos/auto-limit.mp4) | lim sin x / x（x→0），極限（28 秒） | 自動生成 |
+| [`videos/auto-solid-of-revolution.mp4`](videos/auto-solid-of-revolution.mp4) | y = x² 在 [0, 1] 繞 x 軸，旋轉體體積（59 秒） | 自動生成 |
+| [`videos/auto-taylor-series.mp4`](videos/auto-taylor-series.mp4) | sin x 在 0 的 5 階泰勒多項式（37 秒） | 自動生成 |
+| [`videos/auto-series-geometric.mp4`](videos/auto-series-geometric.mp4) | Σ (1/2)ⁿ，等比級數，部分和收斂到 2（49 秒） | 自動生成 |
+| [`videos/auto-partial-derivative.mp4`](videos/auto-partial-derivative.mp4) | ∂/∂x ( x²y + y³ )，偏導數與切線（39 秒） | 自動生成 |
 
 影片皆為本專案自行製作。
 
@@ -76,7 +76,7 @@
 
 ## 品質
 
-後端測試套件於 2026-10-12 實跑：**2964 passed、12 skipped、0 failed**（平行 2834、序列真算繪 130）。
+後端測試套件於 2026-10-13 實跑：**3016 passed、12 skipped、0 failed**（平行套件；序列真算繪 130 條最後一次實跑在 2026-10-12）。
 
 ## 授權
 
