@@ -12,7 +12,7 @@ Enter any calculus problem (typed directly with `\int`, `\sum`, or using the on-
 
 1. **Solve**: Provide step-by-step mathematical derivations, clearly labeling which technique is used at each step (e.g., Integration by Parts).
 2. **Verify**: Verify the answer symbolically with SymPy, with optional cross-checking via Wolfram|Alpha. The AI is responsible solely for natural language explanation and **does not determine mathematical correctness**. If the model fails to respond, the system gracefully falls back to built-in templates without affecting mathematical validity.
-3. **Explain**: Render derivations into animated explainer videos. Arrow keys allow navigating between steps, with the video dynamically jumping to the corresponding timestamp. How long the video rests on the opening, a minor step, a key step and the ending is set by four sliders in Settings, and each solution links to a classic problem taught by the same method.
+3. **Explain**: Render derivations into animated explainer videos. Arrow keys allow navigating between steps, with the video dynamically jumping to the corresponding timestamp. How long the video rests on the opening, a minor step, a key step and the ending is set by four sliders in Settings, and each solution links to a classic problem taught by the same method. Concept animations can be turned off for every problem type, a unit, or a single type.
 4. **Practice**: Recommend similar practice problems based on the techniques used, track student feedback ("Solved on my own / Unsure / Viewed solution"), and aggregate them into learning progress.
 
 Covers limits, derivatives, integrals, parametric & polar coordinates, series, and multivariable calculus (including implicit differentiation and epsilon-delta proofs of polynomial limits), alongside a collection of pre-rendered explainer lectures for "Classic Problems".
@@ -31,7 +31,7 @@ Covers limits, derivatives, integrals, parametric & polar coordinates, series, a
 |---|
 | ![Problem Type Menu](images/en/05-kind-picker.png) |
 
-| Settings: Interface Language (Traditional Chinese / English) and video pacing sliders; every screenshot here is the app's own English mode |
+| Settings: Interface Language (Traditional Chinese / English), video pacing sliders and concept-animation switches; every screenshot here is the app's own English mode |
 |---|
 | ![Interface Language](images/en/06-settings-language.png) |
 
